@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.27)
-project(Debs)
+project(university-homework)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Debs TargetCheck.cpp
+add_executable(university-homework
+        TargetCheck.cpp
         OneDimArray.cpp
         SortThemArr.cpp
         MatrixForLife.cpp
